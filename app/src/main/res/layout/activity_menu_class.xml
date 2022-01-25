@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".clases.MenuClass"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_marginTop="0dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MENU CONSULTAS"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:background="#000000"
+        android:textAlignment="center"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="1.Premio"
+        android:layout_marginTop="50dp"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        android:layout_marginLeft="50dp"
+        android:background="#ffffff"
+        android:onClick="ConsultarPremio"
+
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="2.resul. loteria l"
+        android:layout_marginTop="10dp"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        android:layout_marginLeft="50dp"
+        android:background="#ffffff"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="3.cuadre actual"
+        android:layout_marginTop="10dp"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        android:layout_marginLeft="50dp"
+        android:background="#ffffff"
+        android:onClick="CuadreActual"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="4.numeros"
+        android:layout_marginTop="10dp"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        android:layout_marginLeft="50dp"
+        android:background="#ffffff"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:onClick="NumeroGanadores"
+        android:text="5.numeros ganadores"
+        android:textAlignment="textStart"
+        android:textSize="25dp" />
+
+</LinearLayout>

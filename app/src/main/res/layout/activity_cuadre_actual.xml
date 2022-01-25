@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".clases.CuadreActual"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Transaccion:"
+        android:layout_marginLeft="50dp"
+        android:textSize="30dp"/>
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Cuadre Actual"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:id="@+id/asesor"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Numero del Asesor"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"/>
+
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="consultar asesor"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:onClick="ConsultarAsesor"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="regresar al menu"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:onClick="RegresarAlMenu"
+        />
+
+
+</LinearLayout>
